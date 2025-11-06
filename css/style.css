@@ -10244,9 +10244,7 @@ textarea.form-control {
 }
 @media (min-width: 992px) {
   .img-2 {
-    background-size: auto;
-    background-position: top center;
-    min-height: auto;
+    min-height: 600px;
   }
 }
 

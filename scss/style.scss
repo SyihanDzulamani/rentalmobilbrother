@@ -1435,9 +1435,8 @@ textarea.form-control {
   min-height: 250px; // default di HP
 
   @media (min-width: 992px) {
-	background-size: auto; // tampilkan ukuran asli di laptop
-    background-position: top center; // bisa ubah jadi center tergantung kebutuhan
-    min-height: auto;  }
+    min-height: 600px; // laptop ke atas
+  }
 }
 
 .ftco-footer-social {
