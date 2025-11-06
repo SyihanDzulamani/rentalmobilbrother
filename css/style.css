@@ -10227,6 +10227,15 @@ textarea.form-control {
   color: #000000;
 }
 
+.logoo {
+  height: 60px;
+}
+@media (min-width: 992px) {
+  .logoo {
+    height: 70px;
+  }
+}
+
 .ftco-footer-social li {
   list-style: none;
   margin: 0 10px 0 0;

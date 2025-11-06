@@ -1420,6 +1420,13 @@ textarea.form-control {
 	}
 }
 
+.logoo {
+  height: 60px;
+
+  @media (min-width: 992px) {
+    height: 70px;
+  }
+}
 
 .ftco-footer-social {
 	li {
