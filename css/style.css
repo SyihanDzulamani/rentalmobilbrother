@@ -10265,6 +10265,11 @@ textarea.form-control {
      object-position: center;
   border-radius: inherit;
 }
+@media (max-width: 767.98px) {
+  .square {
+    max-width: 300px;
+  }
+}
 
 .ftco-footer-social li {
   list-style: none;

@@ -1454,6 +1454,10 @@ textarea.form-control {
     object-position: center;
     border-radius: inherit; // ikut radius parent
   }
+
+  @include media-breakpoint-down(sm) {
+    max-width: 300px;   // di HP lebih kecil
+  }
 }
 
 
