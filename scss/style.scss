@@ -1440,11 +1440,11 @@ textarea.form-control {
 }
 
 .square {
-  aspect-ratio: 1/1;	
-  width: 500px;
-  height: 500px;
-  overflow: hidden; // biar rounded-nya kepotong rapi
-  border-radius: 10px; // rounded container
+  aspect-ratio: 1 / 1;   // membuat selalu kotak
+  width: 100%;           // ikut lebar container
+  max-width: 500px;      // ukuran maksimum di desktop
+  overflow: hidden;
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
 
@@ -1453,13 +1453,14 @@ textarea.form-control {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: inherit; // ikut radius parent
+    border-radius: inherit;
   }
 
   @include media-breakpoint-down(sm) {
     max-width: 300px;   // di HP lebih kecil
   }
 }
+
 
 
 .ftco-footer-social {

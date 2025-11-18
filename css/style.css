@@ -10250,8 +10250,8 @@ textarea.form-control {
 
 .square {
   aspect-ratio: 1/1;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  max-width: 500px;
   overflow: hidden;
   border-radius: 10px;
   margin-left: auto;
